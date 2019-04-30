@@ -1,5 +1,8 @@
 @import "abstracts/mixins";
 
+@import "base/base";
+
 @import "components/common/navigation";
-@import "components/pages/header";
-@import "components/pages/getstarted";
+@import "components/pages/index/header";
+@import "components/pages/index/getstarted";
+@import "components/pages/index/video";
