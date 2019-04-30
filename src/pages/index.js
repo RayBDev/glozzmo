@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Header from "../components/pages/index/Header"
 import Features from "../components/pages/index/Features"
 import GetStarted from "../components/pages/index/GetStarted"
+import Info from "../components/pages/index/Info"
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <main>
       <Features />
       <GetStarted />
+      <Info />
     </main>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
