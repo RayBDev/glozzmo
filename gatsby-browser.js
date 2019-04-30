@@ -7,3 +7,4 @@
 // You can delete this file if you're not using it
 
 import "./src/assets/sass/vendor/bootstrap/bootstrap.scss"
+import "./src/assets/sass/main.scss"

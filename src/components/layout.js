@@ -9,6 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
+import Navigation from "./common/Navigation"
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -22,7 +24,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Navigation siteTitle={data.site.siteMetadata.title} />
         {children}
         <footer>
           © {new Date().getFullYear()}, Built with
