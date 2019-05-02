@@ -31,8 +31,8 @@ const Header = () => (
       }
     `}
     render={data => (
-      <header id="showcase" pauseOnHover="true">
-        <Carousel interval="6000">
+      <header id="showcase">
+        <Carousel interval="6000" pauseOnHover="true">
           <Carousel.Item>
             <Img alt="Slide1" fluid={data.slide1.childImageSharp.fluid} />
             <Carousel.Caption className="d-none d-sm-block text-right mb-5">
