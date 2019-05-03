@@ -8,9 +8,9 @@ const FAQ = () => {
       <div className="container">
         <h1 className="text-center">Frequently Asked Questions</h1>
         <hr />
-        <div className="row">
-          <div className="col-md-6">
-            <Accordion>
+        <Accordion>
+          <div className="row">
+            <div className="col-md-6">
               <div className="card">
                 <Accordion.Toggle as={Card.Header} eventKey="0">
                   Question One
@@ -53,10 +53,8 @@ const FAQ = () => {
                   </div>
                 </Accordion.Collapse>
               </div>
-            </Accordion>
-          </div>
-          <div className="col-md-6">
-            <Accordion>
+            </div>
+            <div className="col-md-6">
               <div className="card">
                 <Accordion.Toggle as={Card.Header} variant="link" eventKey="3">
                   Question Four
@@ -99,9 +97,9 @@ const FAQ = () => {
                   </div>
                 </Accordion.Collapse>
               </div>
-            </Accordion>
+            </div>
           </div>
-        </div>
+        </Accordion>
       </div>
     </section>
   )
