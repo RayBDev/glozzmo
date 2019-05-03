@@ -10,28 +10,36 @@ const Navigation = ({ siteTitle }) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
-              <Link href="/" className="nav-link">
+            <li className="nav-item">
+              <Link to="/" className="nav-link" activeClassName="active">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/about/" className="nav-link">
+              <Link to="/about/" className="nav-link" activeClassName="active">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/services/" className="nav-link">
+              <Link
+                to="/services/"
+                className="nav-link"
+                activeClassName="active"
+              >
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/blog/" className="nav-link">
+              <Link to="/blog/" className="nav-link" activeClassName="active">
                 Blog
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/contact/" className="nav-link">
+              <Link
+                to="/contact/"
+                className="nav-link"
+                activeClassName="active"
+              >
                 Contact
               </Link>
             </li>
