@@ -12,7 +12,7 @@ import Newsletter from "../components/pages/index/Newsletter"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`home`, `glozzmo`]} />
     <Header />
     <main>
       <Features />
