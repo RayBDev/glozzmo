@@ -1,11 +1,11 @@
 import React from "react"
-import Slider from "react-slick"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageHeader from "../components/common/PageHeader"
 import AboutUs from "../components/pages/about/AboutUs"
 import AboutBoxes from "../components/pages/about/AboutBoxes"
+import Testimonials from "../components/pages/about/Testimonials"
 
 const about = () => (
   <Layout>
@@ -13,6 +13,7 @@ const about = () => (
     <PageHeader pageTitle="About Us" />
     <AboutUs />
     <AboutBoxes />
+    <Testimonials />
   </Layout>
 )
 
