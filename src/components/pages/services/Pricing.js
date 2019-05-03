@@ -6,7 +6,7 @@ const Pricing = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <div className="card text-center">
+            <div className="card text-center mb-4">
               <div className="card-header bg-dark text-white">
                 <h3>Service Plan One</h3>
               </div>
@@ -46,7 +46,7 @@ const Pricing = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card text-center">
+            <div className="card text-center mb-4">
               <div className="card-header bg-dark text-white">
                 <h3>Service Plan Two</h3>
               </div>
@@ -86,7 +86,7 @@ const Pricing = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card text-center">
+            <div className="card text-center mb-4">
               <div className="card-header bg-dark text-white">
                 <h3>Service Plan Three</h3>
               </div>

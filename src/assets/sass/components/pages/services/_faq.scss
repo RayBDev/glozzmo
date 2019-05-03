@@ -1,0 +1,21 @@
+#faq {
+  .card {
+    border: none;
+  }
+
+  .btn-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .card-body,
+  .card-header {
+    background: #333;
+    border: 1px solid #222;
+  }
+
+  .card-header {
+    cursor: pointer;
+  }
+}
