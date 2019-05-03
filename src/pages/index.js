@@ -9,6 +9,7 @@ import GetStarted from "../components/pages/index/GetStarted"
 import Info from "../components/pages/index/Info"
 import Video from "../components/pages/index/Video"
 import Gallery from "../components/pages/index/Gallery"
+import Newsletter from "../components/pages/index/Newsletter"
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +21,7 @@ const IndexPage = () => (
       <Info />
       <Video />
       <Gallery />
+      <Newsletter />
     </main>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
