@@ -22,7 +22,10 @@ class Gallery extends Component {
       for (let key in photoData) {
         gallery.push(
           <div key={Math.random()} className="col-md-4">
-            <div onClick={() => this.handleShow([key])}>
+            <div
+              style={{ cursor: "pointer" }}
+              onClick={() => this.handleShow([key])}
+            >
               <Img fluid={photoData[key].childImageSharp.fluid} />
             </div>
           </div>
@@ -104,7 +107,6 @@ class Gallery extends Component {
                 animation="true"
                 centered
               >
-                <Modal.Header closeButton />
                 <Modal.Body>
                   <Img
                     fluid={
