@@ -84,6 +84,17 @@ function SEO({ description, lang, meta, keywords, title }) {
         integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
         crossorigin="anonymous"
       />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        charset="UTF-8"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+      />
     </Helmet>
   )
 }
