@@ -8,7 +8,7 @@ const AboutUs = () => (
       query {
         aboutUs: file(relativePath: { eq: "about.jpeg" }) {
           childImageSharp {
-            fluid(maxWidth: 700) {
+            fluid(maxWidth: 450) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -44,6 +44,7 @@ const AboutUs = () => (
               <Img
                 fluid={data.aboutUs.childImageSharp.fluid}
                 className="rounded-circle d-none d-md-block about-img"
+                style={{ maxWidth: "450px" }}
               />
             </div>
           </div>

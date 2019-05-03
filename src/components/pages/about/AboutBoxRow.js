@@ -34,7 +34,7 @@ const AboutBoxRow = ({ cardContent, rowNumber }) => {
     else return null
   })
 
-  return <div className="row mb-4">{cardRow}</div>
+  return <div className="row mb-3">{cardRow}</div>
 }
 
 export default AboutBoxRow
