@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "react-bootstrap/Navbar"
+import { Link } from "gatsby"
 
 const Navigation = ({ siteTitle }) => {
   return (
@@ -10,29 +11,29 @@ const Navigation = ({ siteTitle }) => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a href="/" className="nav-link">
+              <Link href="/" className="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/about/" className="nav-link">
+              <Link href="/about/" className="nav-link">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/services/" className="nav-link">
+              <Link href="/services/" className="nav-link">
                 Services
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/blog/" className="nav-link">
+              <Link href="/blog/" className="nav-link">
                 Blog
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/contact/" className="nav-link">
+              <Link href="/contact/" className="nav-link">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </Navbar.Collapse>
