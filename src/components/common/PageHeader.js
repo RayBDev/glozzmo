@@ -2,7 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const Header = ({ pageTitle }) => (
+const Header = ({ pageTitle, subTitle }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -33,8 +33,7 @@ const Header = ({ pageTitle }) => (
             <div className="col-md-6 m-auto text-center text-white">
               <h1>{pageTitle}</h1>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
-                voluptatum.
+                {subTitle}
               </p>
             </div>
           </div>

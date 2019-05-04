@@ -10,7 +10,7 @@ import Testimonials from "../components/pages/about/Testimonials"
 const about = () => (
   <Layout>
     <SEO title="About Us" keywords={[`about us`, `glozzmo`]} />
-    <PageHeader pageTitle="About Us" />
+    <PageHeader pageTitle="About Us" subTitle="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, unde."/>
     <AboutUs />
     <AboutBoxes />
     <Testimonials />

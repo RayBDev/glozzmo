@@ -8,7 +8,7 @@ import BlogCards from "../components/pages/blog/BlogCards"
 const blog = () => (
   <Layout>
     <SEO title="Blog" keywords={[`blog`, `glozzmo`]} />
-    <PageHeader pageTitle="Blog" />
+    <PageHeader pageTitle="Blog" subTitle="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, unde." />
     <BlogCards />
   </Layout>
 )

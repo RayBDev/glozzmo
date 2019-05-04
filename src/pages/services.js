@@ -9,7 +9,7 @@ import FAQ from "../components/pages/services/FAQ"
 const services = () => (
   <Layout>
     <SEO title="Services" keywords={[`services`, `glozzmo`]} />
-    <PageHeader pageTitle="Services" />
+    <PageHeader pageTitle="Services" subTitle="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, unde." />
     <Pricing />
     <FAQ />
   </Layout>
