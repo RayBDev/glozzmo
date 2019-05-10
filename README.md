@@ -44,7 +44,7 @@ You may also clone this repo to view the code and run it directly on your local 
 
     ```sh
     # cd to your desired directory
-    git clone https://github.com/RayBDev/natours.git
+    git clone https://github.com/RayBDev/glozzmo.git
     ```
 
 3.  **Install Dependencies**
